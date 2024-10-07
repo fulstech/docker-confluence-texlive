@@ -1,4 +1,4 @@
-FROM atlassian/confluence:9.0.1
+FROM atlassian/confluence:${CONFLUENCE_IMAGE_VERSION}
 
 ARG DEBIAN_FRONTEND=noninteractive
 
