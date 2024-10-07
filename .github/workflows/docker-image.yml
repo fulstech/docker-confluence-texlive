@@ -51,4 +51,4 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
           build-args: |
-            CONFLUENCE_IMAGE_VERSION: ${{ env.CONFLUENCE_IMAGE_VERSION }}
+            CONFLUENCE_IMAGE_VERSION=${{ env.CONFLUENCE_IMAGE_VERSION }}
