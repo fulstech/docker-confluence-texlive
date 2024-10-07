@@ -1,3 +1,4 @@
+ARG CONFLUENCE_IMAGE_VERSION=undefined
 FROM atlassian/confluence:${CONFLUENCE_IMAGE_VERSION}
 
 ARG DEBIAN_FRONTEND=noninteractive
